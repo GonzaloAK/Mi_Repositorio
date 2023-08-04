@@ -13,6 +13,7 @@ label {
     height: 100px;
 
 }
+
 header {
     text-align: center;
     background-color: beige;
@@ -26,16 +27,16 @@ header ul li {
 }
 
 nav {
-        list-style: none;
+    list-style: none;
     margin: 2px;
-    position: fixed !important; 
+    position: fixed !important;
     text-align: center;
     margin-left: 25% !important;
     background-color: beige
 }
 
 main {
-       background-color: azure;
+    background-color: azure;
     margin-left: 5px;
     margin-right: 5px;
     text-align: center;
@@ -160,13 +161,15 @@ img.infoCompras {
     margin-top: 5px;
 }
 
-.formulario  { 
- text-align: center;
+.formulario {
+    text-align: center;
 }
+
 .itemFormulario {
     margin: 5px;
-    
+
 }
+
 footer {
     display: flex;
     flex-direction: column;
@@ -184,6 +187,14 @@ img.fotosFooter {
     margin: auto;
 }
 
+.whatsappDirecto {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    left: 92%;
+    top: 85%;
+
+}
 
 
 
