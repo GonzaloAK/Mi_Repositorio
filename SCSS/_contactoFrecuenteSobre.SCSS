@@ -1,0 +1,52 @@
+
+main .formulario {
+    text-align: center;
+
+    div .itemFormulario {
+        margin: 5px;
+    
+    }
+
+    input .botonEnviar {
+        padding: 5px 5px;
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top: 5px;
+          }
+}
+
+
+
+
+
+.center {
+    justify-content: center;
+    text-align: center;
+}
+
+/*GRIDS AREAS: APLICAMOS ESTILO AL CONTENEDOR PADRE */
+
+.sectionA {
+    grid-area: sectionA;
+}
+
+.sectionB {
+    grid-area: sectionB;
+}
+
+
+footer {
+    grid-area: footer;
+}
+
+
+.contenedor {
+    display: grid;
+    grid-template-areas:
+        "sectionA sectionA sectionB"
+
+    ;
+}

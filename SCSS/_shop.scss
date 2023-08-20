@@ -1,0 +1,46 @@
+@mixin flex-row-space{display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	
+}
+
+   
+.shopFotos {
+@include flex-row-space
+    
+   }
+
+.shopDescription {
+ @include flex-row-space
+}
+
+.prenda {
+    display: block;
+    font-size: 20px;
+}
+
+.botonComprar {
+    padding: 10px 20px;
+    background-color: #2ECC71;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: none;
+    transition: all 1seg;
+    &:hover{
+        font-size: 35px;
+    }
+
+}
+
+
+.precio {
+    font-size: 26px;
+    font-weight: bold;
+    color: #2ECC71;
+}
+

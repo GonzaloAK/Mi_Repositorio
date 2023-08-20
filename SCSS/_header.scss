@@ -1,0 +1,25 @@
+
+$fondo: beige ;
+
+.cataleya {
+    width: 100px;
+    height: 100px;
+
+}
+
+.Header{
+    display: grid;
+    grid-column: 12;
+    text-align: center;
+    background-color: $fondo;
+}
+
+
+nav {
+    list-style: none;
+    margin: 2px;
+    position: fixed !important;
+    text-align: center;
+    margin-left: 25% !important;
+    background-color: $fondo
+}

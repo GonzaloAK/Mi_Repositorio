@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+a:link {
+  color: blue;
+}
+a:hover {
+  color: black;
+}
+a:visited {
+  color: blueviolet;
+}
+
+.cataleya {
+  width: 100px;
+  height: 100px;
+}
+
+.Header {
+  display: grid;
+  grid-column: 12;
+  text-align: center;
+  background-color: beige;
+}
+
+nav {
+  list-style: none;
+  margin: 2px;
+  position: fixed !important;
+  text-align: center;
+  margin-left: 25% !important;
+  background-color: beige;
+}
+
+main {
+  background-color: beige;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.video {
+  background-color: beige;
+  width: 100%;
+}
+
+.menu {
+  width: 100%;
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fotoMenu {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.linkMenu {
+  display: inline;
+  justify-content: space-between;
+}
+
+.recuadroPrincipal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+  border: solid 2px black;
+  margin: 5px;
+  border-radius: 2px black;
+  padding: auto;
+}
+.recuadroPrincipal .mediosDePago {
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  padding-top: 25px;
+}
+.recuadroPrincipal .envios {
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  padding-top: 25px;
+}
+.recuadroPrincipal .envios .eviosData {
+  margin-top: 50%;
+}
+.recuadroPrincipal .redesSociales {
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  padding-top: 40px;
+}
+.recuadroPrincipal img.infoCompras {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto;
+}
+
+.shopFotos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.shopDescription {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.prenda {
+  display: block;
+  font-size: 20px;
+}
+
+.botonComprar {
+  padding: 10px 20px;
+  background-color: #2ECC71;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+  border: none;
+  transition: all 1seg;
+}
+.botonComprar:hover {
+  font-size: 35px;
+}
+
+.precio {
+  font-size: 26px;
+  font-weight: bold;
+  color: #2ECC71;
+}
+
+main .formulario {
+  text-align: center;
+}
+main .formulario div .itemFormulario {
+  margin: 5px;
+}
+main .formulario input .botonEnviar {
+  padding: 5px 5px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.center {
+  justify-content: center;
+  text-align: center;
+}
+
+/*GRIDS AREAS: APLICAMOS ESTILO AL CONTENEDOR PADRE */
+.sectionA {
+  grid-area: sectionA;
+}
+
+.sectionB {
+  grid-area: sectionB;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-areas: "sectionA sectionA sectionB";
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: beige;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+footer img.fotosFooter {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto;
+}
+
+.contenedorwhatsappDirecto {
+  position: fixed;
+  left: 92%;
+  top: 85%;
+}
+.contenedorwhatsappDirecto .whatsappDirecto {
+  width: 70px;
+  height: 70px;
+}
+
+@media (max-width: 540px) {
+  .shopFotos {
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+  }
+  .menu {
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+  }
+  .contenedor {
+    display: grid;
+    grid-template-areas: "sectionA sectionA" "sectionB sectionB";
+  }
+}
+@media (min-width: 540px) and (max-width: 720px) {
+  .shopFotos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+  }
+  .menu {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */

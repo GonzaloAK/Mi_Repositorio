@@ -1,0 +1,40 @@
+@media (max-width: 540px) {
+    .shopFotos  {
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+
+    }
+
+    .menu 
+    {
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+
+    }
+    .contenedor {
+        display: grid;
+        grid-template-areas:
+            "sectionA sectionA"
+            "sectionB sectionB"
+    
+        ;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 720px) {
+    .shopFotos {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        text-align: center;
+
+    }
+
+    .menu  {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        text-align: center;
+
+    }
+}
