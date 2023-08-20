@@ -2,23 +2,32 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cataleya_Home</title>
+  <link rel="stylesheet" href="SCSS/style.css">
+  <link rel="shortcut icon" href="Fotos/favicon.ico" type="image/x-icon" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tienda Online #1 de Indumentaria Femenina y Accesorios. Lo último en tendencias. Compra ahora. Asesoramiento gratiuto por especialistas. Buzos 15% off. Colección Invierno 2023. 3 y 6 cuotas sin interés. Descuento por Lanzamiento.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
 </head>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+  crossorigin="anonymous"></script>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-    crossorigin="anonymous"></script>
-    <header>
-      <div class="Header">
-        <h3>Envíos gratis en compras superiores a $30.000 - Efectivo en el local 10% off</h3>
-        <h4 class="titulo"><img src="Fotos/Logo.jpg" alt="Cataleya" class="cataleya"></h4>
-      </div>
+  <header>
+    <div class="Header">
+      <h3 class="animate__animated animate__backInDown">Envíos gratis en compras superiores a $30.000 - Efectivo en el local 10% off</h3>
+      <h4 class="titulo"><img src="Fotos/Logo.jpg" alt="Cataleya" class="cataleya"></h4>
+    </div>
   
       <nav class="navbar navbar-expand-lg navbar-light bg-light" class="header">
         <div class="container-fluid">
@@ -67,13 +76,13 @@
                     <button class="botonComprar">Comprar</button> 
                     <p class="precio">$5000</p>
                 </div>
-                <div class="sweater">
+                <div class="sweater" class="prenda">
                     <img src="Fotos/Sweater.jpg" alt="Sweater" class="fotoMenu">
                     <h5 class="prenda">Sweater</h5>
                     <button class="botonComprar">Comprar</button> 
                     <p class="precio">$5000</p>
                 </div>
-                <div class="polera">
+                <div class="polera" class="prenda">
                     <img src="Fotos/Polera.jpg" alt="Polera" class="fotoMenu">
                     <h5 class="prenda">Polera</h5>
                     <button class="botonComprar">Comprar</button> 
@@ -91,13 +100,13 @@
                 <button class="botonComprar">Comprar</button> 
                 <p class="precio">$5000</p>
             </div>
-            <div class="jeanVerde">
+            <div class="jeanVerde" class="prenda">
                 <img src="Fotos/Jean Verde.jpg" alt="Jean" class="fotoMenu">
                 <h5 class="prenda">Jean Verde</h5>
                 <button class="botonComprar">Comprar</button> 
                 <p class="precio">$5000</p>
             </div>
-            <div class="pantalonEngomado">
+            <div class="pantalonEngomado" class="prenda">
                 <img src="Fotos/Pantalon Engomado Chocolate.jpg" alt="Pantalon Engomado" class="fotoMenu">
                 <h5 class="prenda">Pantalon Engomado Chocolate</h5>
                 <button class="botonComprar">Comprar</button> 
@@ -117,13 +126,13 @@
                 <button class="botonComprar">Comprar</button> 
                 <p class="precio">$5000</p>
             </div>
-            <div class="remeraMangaLarga">
+            <div class="remeraMangaLarga" class="prenda">
                 <img src="Fotos/Remera manga larga.jpg" alt="Remera Modal" class="fotoMenu">
                 <h5 class="prenda">Remera Modal</h5>
                 <button class="botonComprar">Comprar</button> 
                 <p class="precio">$5000</p>
             </div>
-            <div class="musculosa">
+            <div class="musculosa" class="prenda">
                 <img src="Fotos/Musculosa.jpg" alt="Musculosa" class="fotoMenu">
                 <h5 class="prenda">Musculosa</h5>
                 <button class="botonComprar">Comprar</button> 
@@ -133,17 +142,18 @@
 
 
     </main>
-    <section class="whatsappDirecto">
-      <a href=" https://wa.me/5491135867430" target="_blank" class="whatsappDirecto"><img src="Fotos/logo whatsapp.jpg"
+    <section class="contenedorwhatsappDirecto">
+      <a href=" https://wa.me/5491135867430" target="_blank" class="whatsappDirecto"><img src="Fotos/logo_whatsapp-removebg-preview.png"
           alt="Whatsapp" class="whatsappDirecto"></a>
     </section>
+  
     <footer>
-        <img src="Fotos/logo whatsapp.jpg" alt="Whatsapp" class="fotosFooter"><a href=" https://wa.me/5491135867430"
-            target="_blank">Whatsapp</a>
-        <img src="Fotos/Correo.png" alt="Correo" class="fotosFooter"><a href="mailto:cataleya@gmail.com"
-            target="_blank">Mail</a>
-        <img src="Fotos/Ubicacion.png" alt="Ubicación" class="fotosFooter"><a
-            href="https://goo.gl/maps/bxhGwYFsxY2Tqms86" target="_blank">Arevalo 2450</a>
+      <img src="Fotos/logo_whatsapp-removebg-preview.png" alt="Whatsapp" class="fotosFooter"><a href=" https://wa.me/5491135867430"
+        target="_blank">Whatsapp</a>
+      <img src="Fotos/Correo-removebg-preview.png" alt="Correo" class="fotosFooter"><a href="mailto:cataleya@gmail.com"
+        target="_blank">Mail</a>
+      <img src="Fotos/Ubicacion-removebg-preview.png" alt="Ubicación" class="fotosFooter"><a href="https://goo.gl/maps/bxhGwYFsxY2Tqms86"
+        target="_blank">Arevalo 2450</a>
     </footer>
 </body>
 
