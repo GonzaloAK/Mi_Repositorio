@@ -1,25 +1,103 @@
-@media (max-width: 540px) {
-    .shopFotos  {
+@media (max-width: 565px) {
+    .shopFotos {
         display: grid;
         grid-template-columns: 100%;
         text-align: center;
 
     }
 
-    .menu 
-    {
+    .menu {
         display: grid;
         grid-template-columns: 100%;
         text-align: center;
 
     }
+
     .contenedor {
         display: grid;
         grid-template-areas:
+            "fotoRopa fotoRopa"
             "sectionA sectionA"
             "sectionB sectionB"
-    
+
         ;
+    }
+
+    .contenedorPreguntasFrecuentes {
+        display: grid;
+        grid-template-areas:
+            "preguntasFrecuentes preguntasFrecuentes"
+            "respuestasPreguntasFrecuentes respuestasPreguntasFrecuentes"
+            "respuestasPreguntasFrecuentes respuestasPreguntasFrecuentes"
+        ;
+    }
+
+    .preguntasFrecuentes {
+        grid-area: preguntasFrecuentes;
+        text-align: center;
+
+    }
+
+    .introTitulo {
+        font-size: 30px;
+
+    }
+
+    .introDescripcion {
+        font-size: 15px;
+
+    }
+
+    .carritoCompras {
+        width: 60px;
+        height: 40px;
+        margin-left: 25px;
+    }
+
+    .contenedorwhatsappDirecto {
+        position: fixed;
+        left: 85%;
+        top: 85%;
+
+        .whatsappDirecto {
+
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+
+
+        }
+    }
+
+    .suscripcionFooter {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 25%;
+        margin-left: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        .suscripcion {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 15px;
+
+        }
+
+        .suscripcionBoton {
+            font-size: 15px;
+        }
+    }
+
+    img.fotosFooter {
+        width: 35px;
+        height: 35px;
+        margin: 10px;
+
+    }
+
+    .accesosFooter {
+        font-size: 15px;
     }
 }
 
@@ -31,10 +109,45 @@
 
     }
 
-    .menu  {
+    .menu {
         display: grid;
         grid-template-columns: 50% 50%;
         text-align: center;
-
     }
+
+    .contenedorwhatsappDirecto {
+        position: fixed;
+        left: 90%;
+        top: 85%;
+
+        .whatsappDirecto {
+
+            width: 50px;
+            height: 50px;
+            margin-right: 5px;
+
+
+        }
+    }
+
+    .suscripcionFooter {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 25%;
+        margin-left: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        .suscripcion {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 15px;
+
+        }
+
+        .suscripcionBoton {
+            font-size: 15px;
+        }
+    }
+
 }

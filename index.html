@@ -9,23 +9,24 @@
   <link rel="shortcut icon" href="Fotos/favicon.ico" type="image/x-icon" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Tienda Online #1 de Indumentaria Femenina y Accesorios. Lo último en tendencias. Compra ahora. Asesoramiento gratiuto por especialistas. Buzos 15% off. Colección Invierno 2023. 3 y 6 cuotas sin interés. Descuento por Lanzamiento.">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+  <meta name="description"
+    content="Tienda Online #1 de Indumentaria Femenina y Accesorios. Lo último en tendencias. Compra ahora. Asesoramiento gratiuto por especialistas. Buzos 15% off. Colección Invierno 2023. 3 y 6 cuotas sin interés. Descuento por Lanzamiento.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-  crossorigin="anonymous"></script>
+  integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
 <body>
   <header>
     <div class="Header">
-      <h3 class="animate__animated animate__backInDown">Envíos gratis en compras superiores a $30.000 - Efectivo en el local 10% off</h3>
+      <h3 class="animate__animated animate__backInDown">Envíos gratis en compras superiores a $30.000 - Efectivo en el
+        local 10% off</h3>
       <h4 class="titulo"><img src="Fotos/Logo.jpg" alt="Cataleya" class="cataleya"></h4>
     </div>
 
@@ -65,15 +66,49 @@
         </div>
       </div>
     </nav>
-
+    <img src="Fotos/carrito.remove.png" alt="carrito de compras" class="carritoCompras">
 
   </header>
   <main>
-    <div class="video">
-      <iframe src="https://www.youtube.com/embed/nm4R9GkbzGM" title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen class="fotoModelo"></iframe>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Fotos/Carrousel1.jpg" class="d-block w-100" alt="Modelo posando acostada">
+        </div>
+        <div class="carousel-item">
+          <img src="Fotos/Carrousel2.jpg" class="d-block w-100" alt="Modelo posando con indumentaria azul">
+        </div>
+        <div class="carousel-item">
+          <img src="Fotos/Carrousel3.jpg" class="d-block w-100" alt="Modelos posando con paracaidas de fondo">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+
+    <section class="introduccion">
+      <h3 class="introTitulo">Cataleya Indumentaria</h3>
+      <h6 class="introDescripcion">En Cataleya, desde hace más de 20 años fabricamos y diseñamos moda para vestir a
+        mujeres con una personalidad bien definida. Todas nuestras colecciones están inspiradas en las tendencias de
+        cada temporada pero cuidando siempre nuestro estilo: el estilo bled.</h6>
+    </section>
     <section class="menu">
       <div class="seccionMenu">
         <img src="Fotos/Buzo_marron-removebg-preview.png" alt="Abrigos" class="fotoMenu">
@@ -97,8 +132,9 @@
     </div>
     <div class="redesSociales">
       <h6>Redes Sociales</h6>
-      <a href="https://www.instagram.com/cataleyabsas/" target="_blank"><img src="Fotos/logo_instagram-removebg-preview.png" alt="Instagram" class="infoCompras"></a>
-      
+      <a href="https://www.instagram.com/cataleyabsas/" target="_blank"><img
+          src="Fotos/logo_instagram-removebg-preview.png" alt="Instagram" class="infoCompras"></a>
+
     </div>
     <div class="mediosDePago">
       <img src="Fotos/Tarjeta.png" alt="Tarjeta" class="infoCompras">
@@ -106,17 +142,44 @@
     </div>
   </section>
   <section class="contenedorwhatsappDirecto">
-    <a href=" https://wa.me/5491135867430" target="_blank" class="whatsappDirecto"><img src="Fotos/logo_whatsapp-removebg-preview.png"
-        alt="Whatsapp" class="whatsappDirecto"></a>
+    <a href=" https://wa.me/5491135867430" target="_blank" class="whatsappDirecto"><img
+        src="Fotos/logo_whatsapp-removebg-preview.png" alt="Whatsapp" class="whatsappDirecto"></a>
   </section>
 
-  <footer>
-    <img src="Fotos/logo_whatsapp-removebg-preview.png" alt="Whatsapp" class="fotosFooter"><a href=" https://wa.me/5491135867430"
-      target="_blank">Whatsapp</a>
-    <img src="Fotos/Correo-removebg-preview.png" alt="Correo" class="fotosFooter"><a href="mailto:cataleya@gmail.com"
-      target="_blank">Mail</a>
-    <img src="Fotos/Ubicacion-removebg-preview.png" alt="Ubicación" class="fotosFooter"><a href="https://goo.gl/maps/bxhGwYFsxY2Tqms86"
-      target="_blank">Arevalo 2450</a>
+  <footer class="contenedorFooter">
+
+    <div class="suscripcionFooter">
+      <h3>Suscribite a News</h3>
+      <h6>Suscríbase GRATIS a nuestro newsletter, a través del cual recibirá últimas novedades, productos destacados,
+        noticias, etc...
+      </h6>
+      <form action="">
+        <input type="email" placeholder="Correo Electronico" class="suscripcion">
+        <div><input type="submit" value="Suscribirse" class="suscripcionBoton"></div>
+      </form>
+    </div>
+
+    <div class="accesosFooter">
+      <div>
+        <img src="Fotos/logo_whatsapp-removebg-preview.png" alt="Whatsapp" class="fotosFooter"><a
+          href=" https://wa.me/5491135867430" target="_blank">Whatsapp</a>
+      </div>
+      <div>
+        <img src="Fotos/Correo-removebg-preview.png" alt="Correo" class="fotosFooter"><a
+          href="mailto:cataleya@gmail.com" target="_blank">Mail</a>
+      </div>
+      <div>
+        <img src="Fotos/Ubicacion-removebg-preview.png" alt="Ubicación" class="fotosFooter"><a
+          href="https://goo.gl/maps/bxhGwYFsxY2Tqms86" target="_blank">Arevalo 2450</a>
+      </div>
+    </div>
+
+    <div class="horariosFooter">
+      <img src="Fotos/reloj.remove.png" alt="reloj" class="fotosFooter">
+      <h5>Horarios de Atención</h5>
+      <h6>L a V 09:00 a 17:00</h6>
+    </div>
+
   </footer>
 
 </body>

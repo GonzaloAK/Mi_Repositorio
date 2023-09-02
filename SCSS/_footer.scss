@@ -1,39 +1,68 @@
-$fondo: beige ;
+$fondo: #fff4ec;
 
-footer {
-    display: flex;
+
+
+img.fotosFooter {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+
+}
+
+.contenedorwhatsappDirecto {
+    position: fixed;
+    left: 92%;
+    top: 85%;
+
+    .whatsappDirecto {
+
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+
+
+    }
+
+}
+
+.suscripcionFooter {
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    background-color: $fondo;
+    justify-content: flex-start;
+    width: 25%;
+    margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
 
-    img.fotosFooter {
-        width: 50px;
-        height: 50px;
-        display: block;
-        margin: auto;
-    }
-    
+    .suscripcion {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+
     }
 
-
-.contenedorwhatsappDirecto {
-   position: fixed;
-   left: 92%;
-   top: 85%;
-   .whatsappDirecto {
-  
-    width: 70px;
-    height: 70px;
- 
-
-}
-
+    .suscripcionBoton {
+        font-size: 20px;
+    }
 }
 
 
+.accesosFooter {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+.horariosFooter {
+    margin: 10px;
+}
 
-
+.contenedorFooter {
+    background-color: $fondo;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+}

@@ -1,13 +1,12 @@
-
 main .formulario {
     text-align: center;
 
     div .itemFormulario {
         margin: 5px;
-    
+
     }
 
-    input .botonEnviar {
+    .botonEnviar {
         padding: 5px 5px;
         font-size: 15px;
         font-weight: bold;
@@ -15,7 +14,8 @@ main .formulario {
         cursor: pointer;
         border-radius: 5px;
         margin-top: 5px;
-          }
+        margin-bottom: 5px;
+    }
 }
 
 
@@ -29,6 +29,12 @@ main .formulario {
 
 /*GRIDS AREAS: APLICAMOS ESTILO AL CONTENEDOR PADRE */
 
+.fotoRopa {
+    grid-area: fotoRopa;
+    width: 100%;
+    height: 300px;
+}
+
 .sectionA {
     grid-area: sectionA;
 }
@@ -38,15 +44,36 @@ main .formulario {
 }
 
 
-footer {
-    grid-area: footer;
-}
-
-
 .contenedor {
     display: grid;
     grid-template-areas:
+        "fotoRopa fotoRopa fotoRopa"
+        "sectionA sectionA sectionB"
         "sectionA sectionA sectionB"
 
     ;
+}
+
+.preguntasFrecuentes {
+    grid-area: preguntasFrecuentes;
+    margin-right: 100px;
+}
+
+.respuestasPreguntasFrecuentes {
+    grid-area: respuestasPreguntasFrecuentes;
+}
+
+.contenedorPreguntasFrecuentes {
+    display: grid;
+    grid-template-areas:
+        "preguntasFrecuentes respuestasPreguntasFrecuentes respuestasPreguntasFrecuentes"
+        "preguntasFrecuentes respuestasPreguntasFrecuentes respuestasPreguntasFrecuentes"
+        "preguntasFrecuentes respuestasPreguntasFrecuentes respuestasPreguntasFrecuentes"
+    ;
+}
+
+.pregunta {
+
+    border-bottom: 2px solid black;
+
 }
